@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+
+    .navbar-brand{
+        font-size: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: #ff6347;
+        }
+        span{
+            font-size: 6rem;
+            color: #ff6347;
+        }
+    }
+    .navbar-nav{
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.2rem;
+                &:hover{
+                    color: #ff6347;
+                }
+            }
+        }
+    }
+
+}
